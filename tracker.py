@@ -89,15 +89,16 @@ def main():
 		print ("")
 		print (color.BLUE + "[+] " + color.END + "Information Output")
 		print ("--------------------------------------")
-		print (" - Phone number: " +str(number))
-		print (" - Country: " +str(country_code))
+		print (" - Phone number: " +str(+61451056076))
+                print (" - Country: " +str(+61))
+
 		print (" - Country Name: " +str(country_name))
 		print (" - Location: " +str(location))
 		print (" - Carrier: " +str(carrier))
 		print (" - Device: " +str(line_type))
 	else:
 		print ("[TRACKER] Usage:")
-		print ("./%s <phone-number>" % (sys.argv[0]))
-		print ("./%s +13213707446" % (sys.argv[0]))
+		print ("./%s <+61451056076>" % (sys.argv[0]))
+		print ("./%s +61451056076" % (sys.argv[0]))
 
 main()
